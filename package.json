@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start" : "node build/inde.js",
+    "dev": "ts-node-dev src/inde.ts",
+    "start": "node build/inde.js",
     "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +13,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
